@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushboo - My Best Friend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="birthdayMusic" autoplay loop>
+        <source src="happy-birthday-254480.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <div class="container">
+        <!-- Images of Khushboo -->
+        <div class="images">
+            <img src="pic 1.jpg" alt="Khushboo's Picture" class="friend-image">
+            <img src="pic 2.jpg" alt="Khushboo's Picture" class="friend-image">
+            <img src="pic 3.jpg" alt="Khushboo's Picture" class="friend-image">
+        </div>
+
+        <h1>Khushboo - My Best Friend ❤️</h1>
+        <p class="quote">"A best friend is someone who makes your life more beautiful just by being in it."</p>
+
+        <div class="section">
+            <h2>🎉 Happy Birthday, Khushboo! 🎉</h2>
+            <p>May you continue to rise, achieve your dreams, and make your family proud. I know you will go very far in life—whether it's getting an amazing job, helping your family, or achieving all the goals you've set for yourself. I believe in you completely, and I know that the future holds great things for you. Your hard work, dedication, and the trust we share will always keep us close, no matter where life takes us. I love you, Khushboo, and I am so grateful for your friendship since 2017.</p>
+        </div>
+
+        <div class="section">
+            <h2>🌟 Journey of Our Friendship</h2>
+            <p>We met in class 8, and I still remember how we fought a lot, mainly because I was immature back then. But as time went on, we grew closer and shared many beautiful moments. After one year, we separated, but our bond only grew stronger. We spent our time together through class 10, where we studied at the same school. After that, life took us on separate paths. After class 12, I moved to a new city to continue my studies, but we always stayed connected. We meet once a year and talk about the good old days, remembering all the moments we shared. Despite the distance, our efforts and trust in each other have never broken. Thank you, Khushboo, for being a part of my life. Our friendship is truly irreplaceable, and I'm excited for the many more years of friendship ahead, from 2017 to 2025 and beyond.</p>
+        </div>
+
+        <div class="section">
+            <h2>😊 Her Beautiful Behavior</h2>
+            <p>Khushboo is the kindest and simplest person I know. She is not someone who cares about makeup, modeling, or superficial things. Her beauty lies in her kindness and her loving heart. She is truly a lovely lady with a soft nature, and it's this genuine beauty that makes her shine. She spreads positivity and makes everyone around her feel cared for, never letting anyone feel alone. Her inner beauty is what truly defines her.</p>
+        </div>
+
+        <div class="section">
+            <h2>💪 Her Hard Work & Dedication</h2>
+            <p>Khushboo is someone who puts in tremendous effort into everything she does, especially when it comes to her studies. In class 10, she was the topper of our school, and now, she is studying at IIT Madras, achieving everything on her own. I know she is destined for greatness because of the hard work she consistently puts in. She is on the correct path, and I believe she will continue to achieve success in everything she sets her mind to.</p>
+        </div>
+
+        <div class="section">
+            <h2>🎯 My Wishes for Her</h2>
+            <p>Khushboo, I wish you a life full of success, happiness, and love. May our friendship continue to grow stronger every day! I believe that with your hard work and dedication, you will not only achieve your dreams but will also inspire others to follow their path. I wish that your journey is filled with incredible milestones and that you keep soaring to greater heights. Your efforts and character will always lead you to success!</p>
+        </div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="toggle-btn">🌙 Toggle Theme</button>
+
+    <!-- JavaScript for Theme Toggle -->
+    <script>
+        // Get the toggle button
+        const toggleButton = document.querySelector('.toggle-btn');
+        
+        // Add event listener to toggle dark mode
+        toggleButton.addEventListener('click', () => {
+            // Toggle dark mode class on body
+            document.body.classList.toggle('dark-mode');
+            
+            // Change the button text based on mode
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = '☀️ Toggle Theme';
+            } else {
+                toggleButton.textContent = '🌙 Toggle Theme';
+            }
+        });
+    </script>
+</body>
+</html>

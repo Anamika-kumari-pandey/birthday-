@@ -1,0 +1,68 @@
+/* CSS Variables for Light and Dark Mode */
+/* Default Light Mode */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    color: #212121;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2 {
+    color: #e91e63;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.friend-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    font-style: italic;
+    color: #d81b60;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode h1, body.dark-mode h2 {
+    color: #bb86fc;
+}
+
+body.dark-mode .quote {
+    color: #bb86fc;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .toggle-btn {
+    background-color: #bb86fc;
+}
+
+.toggle-btn:hover {
+    transform: scale(1.1);
+}
